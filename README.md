@@ -21,4 +21,4 @@ A python wrapper for detecting face and mouth regions in images using dlib libra
 * opencv >= 3.2.0
 
 ### Year3
-Last year's project tasks (hands on practice and training with python libraries development and tools).
+Last year's project tasks (hands on practice and training with python libraries and development tools).
