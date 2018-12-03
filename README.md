@@ -1,6 +1,12 @@
 # Audio-Visual-Speech-Enhancement
 Engineering Project
 
+### pre-processing and neural network files
+data_processor.py
+dataset.py
+network.py
+speech_enhancer.py
+
 ### mediaio
 A python wrapper for reading, writing and manipulating audio and video files.
 
