@@ -189,7 +189,7 @@ class SpeechEnhancementNetwork(object):
 		lr_decay = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=5, min_lr=0, verbose=1)
 		early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=10, verbose=1)
 
-		tensorboard = TensorBoard(log_dir=tensorboard_dir, histogram_freq=0, write_graph=True, write_images=True)
+		# tensorboard = TensorBoard(log_dir=tensorboard_dir, histogram_freq=0, write_graph=True, write_images=True)
 
 		self.__model.fit(
 			x=[train_mixed_spectrograms, train_video_samples],
@@ -201,7 +201,9 @@ class SpeechEnhancementNetwork(object):
 			),
 
 			batch_size=16, epochs=1000,
-			callbacks=[checkpoint, lr_decay, early_stopping, tensorboard],
+			# callbacks=[checkpoint, lr_decay, early_stopping, tensorboard],
+			# verbose=1
+			callbacks=[checkpoint, lr_decay, early_stopping],
 			verbose=1
 		)
 
