@@ -2,7 +2,7 @@
 Engineering Project
 
 ### Real-Time
-A folder contains real-time pre-processing files
+A folder contains real time speech enhancer files
 
 ### Pre-Processing and Neural Network Files
 * data_processor.py
