@@ -4,7 +4,7 @@ import numpy as np
 
 
 class VideoFileReader:
-
+    # Writing and manipulating video files in real-time.
     def __init__(self, video_file_path):
         self._video_fd = imageio.get_reader(video_file_path)
 
