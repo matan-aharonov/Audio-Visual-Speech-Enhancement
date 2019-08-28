@@ -3,7 +3,7 @@ import numpy as np
 
 
 class AudioSignal:
-
+	# Writing and manipulating audio files in real-time.
 	def __init__(self, data, sample_rate):
 		self._data = np.copy(data)
 		self._sample_rate = sample_rate
