@@ -6,7 +6,7 @@ import cv2
 
 
 class FaceDetector:
-
+	# A python wrapper for detecting face and mouth regions in images using dlib library.
 	FACIAL_LANDMARK_IDS = range(68)
 	MOUTH_LANDMARK_IDS = range(48, 68)
 
