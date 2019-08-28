@@ -20,6 +20,7 @@ import sounddevice as sd
 import pyaudio
 import matplotlib.pyplot as plt
 
+# The main file that runs the whole system in real time. In this file all work is done in parallel.
 
 class VideoProcess:
     """
