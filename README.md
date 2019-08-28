@@ -4,7 +4,7 @@ Engineering Project
 ### Real-Time
 A folder contains real time speech enhancer files
 
-### Pre-Processing and Neural Network Files
+### Pre-Processing and Neural Network Files (Offline Mode)
 * data_processor.py
 * dataset.py
 * network.py
