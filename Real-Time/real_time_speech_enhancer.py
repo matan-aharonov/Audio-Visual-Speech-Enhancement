@@ -27,8 +27,8 @@ class VideoProcess:
     VideoProcess class based on openCV.
     """
 
-    # NUMBER_OF_FRAMES = 6
-    NUMBER_OF_FRAMES = 12
+    NUMBER_OF_FRAMES = 6
+    # NUMBER_OF_FRAMES = 12
     # NUMBER_OF_FRAMES = 30
     # NUMBER_OF_FRAMES = 150
 
@@ -96,8 +96,8 @@ class AudioProcess:
 
     RATE = 16000
 
-    # CHUNK_SIZE = 3200
-    CHUNK_SIZE = 6400
+    CHUNK_SIZE = 3200
+    # CHUNK_SIZE = 6400
     # CHUNK_SIZE = 16000
     # CHUNK_SIZE = 80000
 
@@ -143,8 +143,8 @@ class RunPredict:
 
     FRAMES_PER_SLICE = 6
 
-    # NUMBER_OF_FRAMES = 6
-    NUMBER_OF_FRAMES = 12
+    NUMBER_OF_FRAMES = 6
+    # NUMBER_OF_FRAMES = 12
     # NUMBER_OF_FRAMES = 30
     # NUMBER_OF_FRAMES = 150
 
@@ -473,9 +473,9 @@ def main():
     predict_parser.set_defaults(func=start)
     args = parser.parse_args()
 
-    # For debugging
     args.func(args)
-
+    
+    # For debugging
     # try:
     #     func = args.func
     #     func(args)
